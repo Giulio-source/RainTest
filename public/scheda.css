@@ -1,0 +1,179 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(
+    112.1deg,
+    rgba(63, 76, 119, 1) 11.4%,
+    rgba(32, 38, 57, 1) 70.2%
+  );
+}
+
+.content {
+  max-width: 900px;
+  margin: 100px auto;
+  min-height: 100vh;
+}
+
+.titolo-film {
+  font-family: "Roboto Condensed", sans-serif;
+  color: white;
+  font-size: 50px;
+}
+
+.anno-film {
+  color: rgb(211, 211, 211);
+}
+
+#stella1,
+#stella2 {
+  height: 30px;
+}
+
+#stella1 polygon {
+  fill: #f5c517;
+}
+
+.informazioni-principali {
+  min-width: 1000px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rating,
+.rate-this,
+.seconda-sezione {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.valore-rating {
+  font-size: 25px;
+  font-family: "Roboto Condensed", sans-serif;
+  color: white;
+}
+
+.valore-rating span {
+  font-size: 18px;
+}
+
+.numero-voti,
+.rate-cta {
+  font-family: "Roboto Condensed", sans-serif;
+  color: white;
+  font-size: 15px;
+}
+
+.rate-cta {
+  margin-left: 5px;
+}
+
+.inner-votes {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  align-items: center;
+}
+
+.rate-this {
+  margin-left: 20px;
+  transition: all 0.2s;
+}
+
+.rate-cta {
+  text-transform: uppercase;
+  max-width: 50px;
+}
+
+.poster img {
+  max-width: 400px;
+}
+
+.seconda-sezione {
+  width: 90%;
+  margin: 50px auto;
+}
+
+.informazioni-aggiuntive .plot {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.informazioni-aggiuntive p {
+  font-family: "Roboto Condensed", sans-serif;
+  color: white;
+  margin-left: 20px;
+  font-size: 16px;
+}
+
+.sezione-immagini img {
+  width: 300px;
+  object-fit: cover;
+}
+
+.sezione-immagini {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+  gap: 30px;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.back-button {
+  position: fixed;
+  left: 30px;
+  top: 20px;
+  font-family: "Roboto Condensed", sans-serif;
+  color: black;
+  padding: 10px 30px;
+  background: white;
+  text-transform: uppercase;
+  border-radius: 999px;
+  text-decoration: none;
+  font-size: 20px;
+  transition: all 0.1s;
+}
+
+.back-button:hover {
+  background: rgb(224, 224, 224);
+}
+
+.rate-panel {
+  position: absolute;
+  opacity: 0.001;
+  display: flex;
+  flex-direction: row;
+  width: 100px;
+  top: 160px;
+  transition: all 0.2s;
+}
+
+.rate-panel h6 {
+  position: absolute;
+  top: 25px;
+  color: white;
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.votes-stats {
+  position: fixed;
+  top: 50px;
+  right: 100px;
+  top: 25px;
+  color: white;
+  text-transform: uppercase;
+  font-family: "Roboto Condensed", sans-serif;
+}
